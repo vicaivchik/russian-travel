@@ -1,0 +1,7 @@
+.header {
+    max-width: 1184px;
+    display: grid;
+    align-items: end;
+    grid-template-columns: 1fr 0fr 0fr;
+    padding-top: 28px;
+}

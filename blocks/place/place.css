@@ -1,0 +1,12 @@
+.places__place {
+    max-width: 984px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 80px;
+}
+
+.places__place:last-child {
+    margin-bottom: 0;
+}

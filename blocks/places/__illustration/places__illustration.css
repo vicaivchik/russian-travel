@@ -1,0 +1,5 @@
+.places__illustration {
+    max-width: 460px;
+    object-fit: cover;
+    margin-right: 40px;
+}
