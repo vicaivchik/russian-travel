@@ -1,6 +1,7 @@
 .cover__link {
     display: block;
     position: relative;
+    max-width: 1280px;
     color: #fff;
     text-decoration: none;
 }

@@ -1,7 +1,19 @@
 .header {
-    max-width: 1184px;
-    display: grid;
-    align-items: end;
-    grid-template-columns: 1fr 0fr 0fr;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
     padding-top: 28px;
+}
+
+@media screen and (max-width: 1279px) {
+    .header {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header {
+        max-width: 720px;
+    }
 }
