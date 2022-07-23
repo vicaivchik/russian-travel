@@ -1,5 +1,4 @@
 .places__place {
-    max-width: 984px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -9,4 +8,17 @@
 
 .places__place:last-child {
     margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .places__place {
+        margin-bottom: 72px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__place {
+        display: block;
+        margin-bottom: 50px;
+    }
 }

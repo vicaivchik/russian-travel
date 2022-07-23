@@ -1,5 +1,27 @@
 .places__illustration {
     max-width: 460px;
-    object-fit: cover;
+    object-fit: contain;
     margin-right: 40px;
+}
+
+@media screen and (max-width: 1279px) {
+    .places__illustration {
+        max-width: 440px;
+        margin-right: 32px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .places__illustration {
+        max-width: 340px;
+        margin-right: 28px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__illustration {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
 }

@@ -4,4 +4,11 @@
   font-family: 'Inter', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}  
+  overflow: hidden;
+}
+
+@media screen and (max-width: 319px) {
+  .page {
+    min-width: 320px;
+  }
+}

@@ -1,4 +1,23 @@
 .wide {
+    width: 100%;
     max-width: 1184px;
     margin: auto;
+}
+
+@media screen and (max-width: 1279px) {
+    .wide {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .wide {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .wide {
+        padding: 0 16px;
+    }
 }

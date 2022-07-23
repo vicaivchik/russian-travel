@@ -2,6 +2,7 @@
 @import url(../vendor/fonts.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/wide/wide.css);
+@import url(../blocks/nowrap/nowrap.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/tight/tight.css);
 
@@ -31,6 +32,7 @@
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
+@import url(../blocks/places/__text-container/places__text-container.css);
 @import url(../blocks/places/__header/places__header.css);
 @import url(../blocks/places/__information-container/places__information-container.css);
 @import url(../blocks/place/__title/place__title.css);

@@ -5,3 +5,9 @@
     padding: 0;
     margin-bottom: 5px;
 }
+
+@media screen and (max-width: 767px) {
+    .language-switcher {
+        margin-bottom: 7px;
+    }
+}
