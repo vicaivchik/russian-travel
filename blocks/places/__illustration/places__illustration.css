@@ -21,7 +21,8 @@
 @media screen and (max-width: 767px) {
     .places__illustration {
         width: 100%;
+        max-width: 100%;
         margin-right: 0;
-        margin-bottom: 32px;
+        margin-bottom: 29px;
     }
 }
